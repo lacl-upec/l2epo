@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "TD de Programmation sécurisée, M2"
+title: "Cours d'éléments de programmation objet"
 ---
-TD de Programmation sécurisée, M2
-=================================
+Page du cours d'éléments de programmation objet
+===============================================
 
 
 {% for post in site.posts reversed %}
