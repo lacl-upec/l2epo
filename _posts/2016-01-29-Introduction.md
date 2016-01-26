@@ -169,7 +169,7 @@ On appelle un constructeur avec `new` suivi du nom de la classe puis des paramè
 
         new Point(1,2);
         new Chrono();
-        news Alarm(1000000);
+        new Alarm(1000000);
 
 Appeler `new` alloue en mémoire de la place pour les données de l'objet puis appelle le constructeur pour les remplir :
 
@@ -277,6 +277,7 @@ Bibliothèque standard
 ---------------------
 
 Java est fourni avec de nombreuses classes utilitaires. Aujourd'hui, nous avons vu :
+
 - `System.nanoTime()` qui retourne le nombre de nanosecondes depuis un temps inconnu mais fixe
 - `System.out.println` qui est la version Java du `println` de Javascool
 - `Math.PI` qui contient la valeur π
