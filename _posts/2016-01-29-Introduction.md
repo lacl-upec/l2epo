@@ -270,6 +270,7 @@ Il est possible de séparer les fonctions dans différentes classes. Pour appele
    }
 
 Mais pourquoi ne pas mettre les fonctions de `CercleUtil` dans la classe `Cercle` ?
+
 - soit parce que le concepteur considère qu'il n'est pas de la responsabilité de la classe Cercle de calculer son aire
 - soit parce que dans le cas contraire, on utiliserait un méthode d'objet.
 
