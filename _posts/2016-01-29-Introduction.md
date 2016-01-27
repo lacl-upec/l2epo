@@ -14,6 +14,8 @@ Les données informatiques sont construites à partir des types « primitifs » 
 - Les caractères `char`
 - Les booléens `boolean`
 
+Les chaînes de caractères de type `String` ne sont pas un type primitif. On en reparlera quand on aura mieux cerner le concept d'objet.
+
 Enregistrements
 ---------------
 
