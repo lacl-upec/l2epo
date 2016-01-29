@@ -259,16 +259,16 @@ Il est possible de séparer les fonctions dans différentes classes. Pour appele
         System.out.println(aireCercle(rayon));
       }
     
-   }
+    }
    
-   class Prog {
-   
-     public static void main(String[] args) {
-        double ratyon = 20;
-        CercleUtil.afficheAireCercle(rayon);
-     }
+    class Prog {
+    
+      public static void main(String[] args) {
+         double ratyon = 20;
+         CercleUtil.afficheAireCercle(rayon);
+      }
      
-   }
+    }
 
 Mais pourquoi ne pas mettre les fonctions de `CercleUtil` dans la classe `Cercle` ?
 
