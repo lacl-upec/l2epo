@@ -156,22 +156,21 @@ Les constructeurs le plus simple :
         
    - combinent les deux
    
-   
         class Alarm {
           long time;
           long duration;
           
-          Chrono(long duration) {
+          Alarm(long duration) {
             this.time = System.nanoTime();
-            this.duration = duration;
+             this.duration = duration;
           }
         }
         
 On appelle un constructeur avec `new` suivi du nom de la classe puis des paramètres du constructeur :
 
-        new Point(1,2);
-        new Chrono();
-        new Alarm(1000000);
+    new Point(1,2);
+    new Chrono();
+    new Alarm(1000000);
 
 Appeler `new` alloue en mémoire de la place pour les données de l'objet puis appelle le constructeur pour les remplir :
 
@@ -179,7 +178,7 @@ Appeler `new` alloue en mémoire de la place pour les données de l'objet puis a
 
 Bien évidemment, pour utiliser cet objet, il faut soit stocker sa référence dans une variable :
 
-        Chrono chrono = new Chrono();
+    Chrono chrono = new Chrono();
         
 soit passer sa référence à une fonction (pas d'exemple pour le moment).
 
