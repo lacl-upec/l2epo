@@ -156,15 +156,15 @@ Les constructeurs le plus simple :
         
    - combinent les deux
    
-        class Alarm {
-          long time;
-          long duration;
-          
-          Alarm(long duration) {
-            this.time = System.nanoTime();
+         class Alarm {
+           long time;
+           long duration;
+           
+           Alarm(long duration) {
+             this.time = System.nanoTime();
              this.duration = duration;
-          }
-        }
+           }
+         }
         
 On appelle un constructeur avec `new` suivi du nom de la classe puis des paramètres du constructeur :
 
