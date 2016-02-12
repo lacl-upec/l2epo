@@ -20,7 +20,7 @@ Objets non mutables-------------------Il est souvent plus simple d'avoir des 
 	     this.p1 = new Point(p1.getX(),p1.getY());
 	     this.p2 = new Point(p2.getX(),p2.getY());
 	   }
-	        public double getP1() {        return new Point(p1.getX(),p1.getY());      }            public double getP2() {        return new Point(p2.getX(),p2.getY());      }    }Si l'on ne faisait de copie dans le constructeur, on pourrait faire :
+	        public Point getP1() {        return new Point(p1.getX(),p1.getY());      }            public Point getP2() {        return new Point(p2.getX(),p2.getY());      }    }Si l'on ne faisait de copie dans le constructeur, on pourrait faire :
 
     Point p = new Point(1,2);
     Point q = new Point(3,4);
@@ -105,4 +105,4 @@ Exemple :
     javadoc -link https://docs.oracle.com/javase/8/docs/api -d doc Degree.java Identity.java Student.javaLe résultat est le [suivant](/l2epo/ext/doc).
 
 - Il est possible d'agrémenter la documentation produite à l'aide de commentaires, cela sera vu plus tard.
-- Notez que les noms des paramètres de méthodes et de constructeurs sont visibles et sont un élément de documentation : ils doivent être **parlants**.
+- Notez que les noms des paramètres de méthodes et de constructeurs sont visibles et sont un élément de documentation : ils doivent être **parlants**.
