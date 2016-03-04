@@ -269,3 +269,12 @@ Exemple :
     }
 
 La javadoc obtenue est disponible à [cet endroit](/l2epo/ext/doc2). Notez qu'une fois en anglais le `ce` prend un sens différent.
+
+API en Java
+-----------
+
+En Java, la documentation d'une API de bibloithèque est donné par le site généré par l'utilitaire Javadoc.
+
+On peut trouver l'API du la bilbiothèque standard de Java à [cette adresse][urljavadoc].
+
+[urljavadoc]: https://docs.oracle.com/javase/8/docs/api
