@@ -268,4 +268,4 @@ Exemple :
       }
     }
 
-La javadoc obtenue est disponible à [cet endroit](/m2epo/ext/doc2). Notez qu'une fois en anglais le `ce` prend un sens différent.
+La javadoc obtenue est disponible à [cet endroit](/l2epo/ext/doc2). Notez qu'une fois en anglais le `ce` prend un sens différent.
