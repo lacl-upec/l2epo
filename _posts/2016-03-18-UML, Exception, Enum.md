@@ -29,6 +29,7 @@ Notez :
 - La présence des champs (typés à la Pascal) avec leur visibilité
 - La présence des méthodes (typées à la Pascal) avec leur visibilité
 - Que la visibilité est `+` pour publique et `-` pour privé
+- On peut omettre les champs privés si l'on ne souhaite que illustrer l'API
 
 Pour former un diagramme de classe, ces boîtes sont reliées entre elles par des flèches. Dans ce cours, nous ne verrons que les flèches de type *association*.
 
