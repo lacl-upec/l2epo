@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="22.652681cm"
-   height="8.1504307cm"
-   viewBox="213 63 453.05363 154.85818"
+   width="22.652679cm"
+   height="8.1504297cm"
+   viewBox="213 63 453.05359 154.85816"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -47,14 +47,14 @@
      fit-margin-bottom="0"
      inkscape:zoom="0.79861261"
      inkscape:cx="653.74016"
-     inkscape:cy="53.164848"
-     inkscape:window-x="0"
-     inkscape:window-y="23"
+     inkscape:cy="47.983134"
+     inkscape:window-x="503"
+     inkscape:window-y="208"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg2" />
   <g
      id="g4"
-     transform="matrix(0.61281428,0,0,0.61281428,81.857744,17.392706)">
+     transform="matrix(0.61281428,0,0,0.61281428,81.857744,20.31748)">
     <rect
        style="fill:#ffffff"
        x="215"
@@ -130,7 +130,7 @@
   </g>
   <g
      id="g28"
-     transform="matrix(0.61281428,0,0,0.61281428,81.857744,17.392706)">
+     transform="matrix(0.61281428,0,0,0.61281428,81.857744,20.31748)">
     <rect
        style="fill:#ffffff"
        x="472"
@@ -200,7 +200,7 @@
   </g>
   <g
      id="g50"
-     transform="matrix(0.61281428,0,0,0.61281428,81.857744,17.392706)">
+     transform="matrix(0.61281428,0,0,0.61281428,81.857744,20.31748)">
     <rect
        style="fill:#ffffff"
        x="796"
@@ -270,7 +270,7 @@
   </g>
   <g
      id="g72"
-     transform="matrix(0.61281428,0,0,0.61281428,81.857744,17.392706)">
+     transform="matrix(0.61281428,0,0,0.61281428,81.857744,20.31748)">
     <rect
        style="fill:#ffffff"
        x="522"
@@ -340,7 +340,7 @@
   </g>
   <g
      id="g94"
-     transform="matrix(0.61281428,0,0,0.61281428,81.857744,17.392706)">
+     transform="matrix(0.61281428,0,0,0.61281428,81.857744,20.31748)">
     <polyline
        style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
        points="332.8,118 333.8,118 471,118 472,118 "
@@ -372,7 +372,7 @@
   </g>
   <g
      id="g106"
-     transform="matrix(0.61281428,0,0,0.61281428,81.857744,17.392706)">
+     transform="matrix(0.61281428,0,0,0.61281428,81.857744,20.31748)">
     <polyline
        style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
        points="689.9,118 690.9,118 780,118 791.528,118 "
@@ -396,7 +396,7 @@
   </g>
   <g
      id="g116"
-     transform="matrix(0.61281428,0,0,0.61281428,81.857744,17.392706)">
+     transform="matrix(0.61281428,0,0,0.61281428,81.857744,20.31748)">
     <polyline
        style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
        points="580.95,164 580.95,204 580.9,204 580.9,244 "
