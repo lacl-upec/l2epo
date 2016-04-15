@@ -96,7 +96,7 @@ Organisation des `.java` et `.class`
 Les fichiers .java d’un paquetage `fr.upec.epo` sont censés être placés dans le
 dossier `epo` du dossier `upec` du dossier `fr` de la *racine* du projet.
 
-![](../ext/img/pkg_location.png)
+![](/l2epo/ext/img/pkg_location.png)
 
 Les fichiers .class (contenant le bytecode des classes) d’un paquetage
 **doivent** respecter la même arborescence
