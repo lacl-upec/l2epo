@@ -62,7 +62,7 @@ On indique l’appartenance d’une classe à un paquetage en ajoutant, au débu
 fichier :
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-package fr.upec.l2.epo;
+package fr.upec.l2.info.epo;
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Règles concernant les paquetages
@@ -98,7 +98,7 @@ dossier `epo` du dossier `upec` du dossier `fr` de la *racine* du projet.
 
 ![](../ext/img/pkg_location.png)
 
-Les fichiers .class (contenant le bytecode des classes) d’un paquetage
+Les fichiers `.class` (contenant le bytecode des classes) d’un paquetage
 **doivent** respecter la même arborescence
 
 -   *DrJava* (ou eclipse) se charge de créer les répertoires automatiquement
@@ -181,8 +181,8 @@ Création de `jar`
 Main-Class: fr.upec.epo.Main
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-où `fr.upec.epo.Main` est le nom complet de la classe et **l’espace après le
-**`:`** est obligatoire**
+où `fr.upec.epo.Main` est le nom complet de la classe et **l’espace après le**
+`:`\*\* est obligatoire\*\*
 
 -   Le fichier manifest.mf doit être mis, par exemple, dans le dossier parent de
     dossier qui contient les classes puis on exécute à partir du dossier qui
