@@ -130,7 +130,7 @@ Comme déclarer une variable de type `Point` ne fait qu'allouer de la place pour
    - elle peut prendre des paramètres
    - elle peut écrire dans les champs de l'objet : pour écrire dans le champ `c`, on utilise `this.c`
 
-Les constructeurs le plus simple :
+Les constructeurs les plus simples :
 
   - utilisent les paramètres de la fonction pour remplir les champs :
          
