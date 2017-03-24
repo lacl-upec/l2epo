@@ -42,29 +42,6 @@ Le `E` est un paramètre de type (*type parameter*).
      - Paramètre de type d'une classe générique !
   - `E` ne peut pas être utilisé dans un contexte statique (fonction et variable globales), au même titre que les champs : sa valeur n'est pas la même pour tous les objets
 
-Exemple :
-
-    class Toto<E> {
-      E c1;
-      Toto<E> c2;
-      Toto<String> c3;
-      public Toto(E c1,Toto<E> c2, Toto<String> c3) {
-        this.c1=c1;
-        this.c2=c2;
-        this.c3=c3;
-      }
-      E getC1() {
-        return c1;
-      }
-      void setC1(E e) {
-        this.c1=c1;
-      }
-    }
-
-Exception : on ne peut pas faire de tableau générique (`new E[...]`). On utilisera plutôt la classe `ArrayList<E>`. On ne peut pas non plus utiliser le variadisme avec `E...`.
-
-Attention : Si l'on ommet la valeur du paramètre de type comme demandé au point 1, cela ne fait pas d'erreur de compilation (compatibilité ascendante, les types génériques datent de Java 5)
-
 Exemple
 -------
 
@@ -101,6 +78,14 @@ Programme de test.
         }
       }
     }
+
+
+Exceptions
+----------
+
+Exception : on ne peut pas faire de tableau générique (`new E[...]`). On utilisera plutôt la classe `ArrayList<E>`. On ne peut pas non plus utiliser le variadisme avec `E...`.
+
+Attention : Si l'on ommet la valeur du paramètre de type comme demandé au point 1, cela ne fait pas d'erreur de compilation (compatibilité ascendante, les types génériques datent de Java 5)
 
 Diamant
 -------
