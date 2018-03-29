@@ -276,3 +276,10 @@ module nom.du.module {
 
 - Un module `a`, importé de manière transitive dans `b` sera automatiquement importé par les modules qui importent `b`
 - Utile sur le module `b` utilise les classes de `a` dans son API
+
+Arborescence
+------------
+
+- Les sources d'un modules dans un répertoire dont le nom est le nom du module, lui même dans le répertoire src
+- On compile avec `javac -d mods --module-source-path src`
+- On exécute avec `java -p mods -m module/classe`
