@@ -128,7 +128,7 @@ conception.
 Documentation de paquetage
 --------------------------
 
--   Les paquetages sont documentés dans le fichier `package-index.java`
+-   Les paquetages sont documentés dans le fichier `package-info.java`
     contenant juste :
 
     -   Le commentaire Javadoc (entre `/**` et `*/`)
@@ -247,3 +247,32 @@ public class JOPTest {
   }
 }
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Modules
+=======
+
+Avec Java 9, il est possible de regrouper les paquetages en modules.
+
+Les modules permettent de :
+
+- avoir un système de bibliothèques Java plus efficace que les `jar`
+- un autre niveau de visibilité
+- optimiser le chargement des classes
+- être plus efficace pour le JIT
+
+Déclaration d'un module
+-----------------------
+
+On crée un fichier `module-info.java` :
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+module nom.du.module {
+  exports paquetage.public.du.module;
+  exports autre.paquetage.public.du.module;
+  require un.module.a.importer;
+  require transitive un.autre.module.transitif.a.importer:
+}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Un module `a`, importé de manière transitive dans `b` sera automatiquement importé par les modules qui importent `b`
+- Utile sur le module `b` utilise les classes de `a` dans son API
